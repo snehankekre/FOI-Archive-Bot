@@ -170,7 +170,7 @@ def main():
         else:
 		    continue
 		# sleep to avoid bot triggers
-        #time.sleep(0.3)
+        time.sleep(0.3)
 
     output_file.close()
     
