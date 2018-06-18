@@ -17,6 +17,7 @@
 # Install:
 # pip install archiveis stem
 
+import sys
 import time
 import requests
 import archiveis
@@ -100,6 +101,10 @@ def getaddrinfo(*args):
   return [(socket.AF_INET, socket.SOCK_STREAM, 6, '', (args[0], args[1]))]
 
 socket.getaddrinfo = getaddrinfo
+
+# Check Python version
+if sys.version_info[0] > 2:
+    raise Exception("Must be using Python 2.7")
 
 
 # Set max number of connection retries
