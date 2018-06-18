@@ -2,6 +2,8 @@
 
 The goal of this simple python script is to permanently archive Freedom of Information Requests from [Right to Know](https://righttoknow.org.au) on the Internet Archive's [Wayback Machine](https://archive.org/web/)
 
+There is a lot to be added to the script, feel free to contribute! 👍
+
 ### Installation
 
 ⚠ Python v2.7 is required
