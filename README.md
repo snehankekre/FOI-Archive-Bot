@@ -17,11 +17,7 @@ pip install -r requirements.txt
 ```
 usage: FOI_Archive_Bot.py -f from_request -t to_request -r retries -l log_urls_to_file.txt
 
-A bot that archives Freedom of Information Requests from
-https://righttoknow.org.au (https://github.com/snehankekre/FOI_Archive_Bot)
-version 0.1-dev
-
-optional arguments:
+arguments:
   -h, --help            show this help message and exit
   -s from_request, --start from_request
                         FOI request number to start archiving from (default=1)
