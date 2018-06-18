@@ -15,7 +15,7 @@
 # python FOI_Archive_Bot.py -f from_request -t to_request -r retries -l log_file.txt
 #
 # Install:
-# pip install archiveis stem
+# pip install requests archiveis stem
 
 import sys
 import time
