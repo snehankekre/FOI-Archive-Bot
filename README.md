@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ### Usage
 
 ```
-usage: FOI_Archive_Bot.py -f from_request -t to_request -r retries -l log_urls_to_file.txt
+usage: FOI_Archive_Bot.py -s from_request -e to_request -r retries -l log_urls_to_file.txt
 
 arguments:
   -h, --help            show this help message and exit
