@@ -1,6 +1,6 @@
 # Freedom of Information Request Archive Bot
 
-The goal of this simple python script is to permanently archive Freedom of Information Requests from [Right to Know](https://righttoknow.org.au) on the [Wayback Machine](https://archive.org/web/)
+The goal of this simple python script is to permanently archive Freedom of Information Requests from [Right to Know](https://righttoknow.org.au) on the Internet Archive's [Wayback Machine](https://archive.org/web/)
 
 ### Installation
 
@@ -32,7 +32,7 @@ arguments:
 
 ### Example output
 
-![Archives FOI requests](https://i.imgur.com/uoFAZo5.png)
+![Archives FOI requests](https://i.imgur.com/qTtSbp0.png)
 
 License
 ----
