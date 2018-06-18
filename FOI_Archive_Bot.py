@@ -12,7 +12,7 @@
 # GNU General Public License for more details.
 #
 # Usage:
-# python FOI_Archive_Bot.py -f from_request -t to_request -r retries -l log_file.txt
+# python FOI_Archive_Bot.py -s from_request -e to_request -r retries -l log_file.txt
 #
 # Install:
 # pip install archiveis stem
