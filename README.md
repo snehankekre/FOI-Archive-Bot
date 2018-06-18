@@ -8,7 +8,7 @@ There is a lot to be added to the script, feel free to contribute! 👍
 
 ⚠ Python v2.7 is required
 
-You will need the following python packages installed: archiveis, stem
+You will need the following python packages installed: requests, archiveis, stem
 
 ```sh
 pip install -r requirements.txt
