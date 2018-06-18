@@ -179,7 +179,9 @@ def main():
     tor_process.kill()
 
     print "[*] %d FOI requests archived on the Wayback Machine" % (args.end - args.start + 1)
-    print "[*] Links saved to file: %s"  % args.log
+    print "[*] Links saved to file: %s\n"  % args.log
+    print "[*] Killed Tor process"
+    print "[*] Exiting..."
     return True
 
 if __name__ == "__main__":
