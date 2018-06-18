@@ -1,3 +1,4 @@
+requests
 archiveis
 stem
 #python-stem for debian/ubuntu
