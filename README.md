@@ -32,7 +32,7 @@ arguments:
 
 ### Example output
 
-![Archives FOI requests](https://i.imgur.com/S4isVCN.png)
+![Archives FOI requests](https://i.imgur.com/uoFAZo5.png)
 
 License
 ----
