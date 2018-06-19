@@ -90,7 +90,7 @@ print(term.format("Starting Tor:", term.Attr.BOLD))
 tor_process = stem.process.launch_tor_with_config(
   config = {
     'SocksPort': str(SOCKS_PORT),
-    'ExitNodes': '{us}, {au}',
+    'ExitNodes': '{de}, {nl}',
   },
   init_msg_handler = print_bootstrap_lines,
 )
