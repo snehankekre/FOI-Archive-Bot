@@ -77,7 +77,7 @@ args = parser.parse_args()
 SOCKS_PORT = 9050
 
 # Set socks proxy
-socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, '127.0.0.1', SOCKS_PORT) ## todo: are the requests actually going through Tor? Need to use wireshark
+socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, '127.0.0.1', SOCKS_PORT)
 socket.socket = socks.socksocket
 
 def print_bootstrap_lines(line):
